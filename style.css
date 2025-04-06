@@ -16,17 +16,44 @@ header {
     align-items: center;
 }
 .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-nav ul {
-    list-style: nome;
     display: flex;
-    gap: 1rem;
-}
-nav a {
+    align-items: center;  /* Alinha imagem e texto verticalmente */
+    gap: 10px;            /* Espaço entre a imagem e o nome */
+  }
+  .logo img {
+    width: 50px;          /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    display: block;
+  }
+  
+  .logo span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;          /* Ou a cor desejada */
+  }
+
+nav li a {
     color: white;
     text-decoration: nome;
+    font-weight: bold;
+}
+ul {
+    list-style: none; /* remove os números ou bolinhas */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1rem; /* espaço entre os itens */
+}
+
+ul li {
+    margin: 0;
+    padding: 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
 #menu-toggle {
     display: none;
@@ -34,10 +61,12 @@ nav a {
     color: white;
     border: none;
     padding: 0.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
 }
 .hero {
     background: #eee;
-    padding: 2rem;
+    padding: 3rem;
     text-align: center;
 }
 section {

@@ -1,4 +1,4 @@
-# LaGabi Pizzaria
+# 🍕 LaGabi Pizzaria
 
 **LaGabi Pizzaria** é um site simples, responsivo e funcional para apresentação de cardápio e realização de pedidos online. 
 

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" contente="width=device-width, initial-scale=1.0"/>
+        <title>LaGabi Pizzaria</title>
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+    <body>
+        <header>
+            <div class="logo">LaGabi</div>
+            <nav id="nav">
+                <ul id="menu">
+                    <li><a href="#sabores">Sabores</a></li>
+                    <li><a href="#cardapio">Cardápio</a></li>
+                    <li><a href="#pedido">Pedir Online</a></li>
+                </ul>
+                <button id="menu-toggle">Menu</button>
+            </nav>
+        </header>
+        <main>
+            <section class="hero">
+                <h1>Bem-vindo a pizzaria LaGabi</h1>
+                <p>excelência é aqui!</p>
+            </section>
+
+            <section id="sabores">
+                <h2>Nossos Sabores</h2>
+                <div class="sabores-grid">
+                    <div class="sabor">Mussarela</div>
+                    <div class="sabor">Calabresa</div>
+                    <div class="sabor">Frango com Catupiry</div>
+                </div>
+            </section>
+
+            <section id="cardapio">
+                <h2>Cardápio</h2>
+                <ul class="cardapio-lista">
+                    <li>Mussarela - R$ 37,00</li>
+                    <li>Calabresa - R$ 35,00</li>
+                    <li>Frango com Catupiry - R$ 35,00</li>
+                </ul>
+            </section>
+
+            <section id="pedido">
+                <h2>Faça seu Pedido</h2>
+                <form id="form-pedido">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required />
+                    <label for="sabor">Sabor:</label>
+                    <select id="sabor" name="sabor" required>
+                        <option value="mussarela">Mussarela</option>
+                        <option value="Calabresa">Calabresa</option>
+                        <option value="frango">Frango com Catupiry</option>
+                       </select>
+                       <button type="submit">Enviar Pedido</button> 
+                </form>
+                <div id="confirmacao"></div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 LaGabi Pizzaria</p>
+        </footer>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>

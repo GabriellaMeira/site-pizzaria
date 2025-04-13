@@ -85,6 +85,12 @@ section {
 }
 .cardapio-lista {
     margin-top: 1rem;
+    list-style: disc; /* ou 'none' se não quiser bolinhas */
+    padding-left: 20px; /* recuo pra alinhar bonitinho */
+    display: block;
+}
+.cardapio-lista li {
+    margin-bottom: 8px;
 }
 form {
     display: flex;

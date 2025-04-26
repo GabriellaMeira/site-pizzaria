@@ -9,6 +9,7 @@
     </head>
     <body>
         <header>
+            
             <div class="logo">
                 <img src="img/logo-novo.png" alt="Logo LaGabi"/>
                 <span>Pizzaria LaGabi</span>
@@ -21,6 +22,7 @@
                 </ul>
                 <button id="menu-toggle">Menu</button>
             </nav>
+            <div id="status-horario"></div>
         </header>
         <main>
             <section class="hero">
@@ -32,16 +34,20 @@
                 <h2>Nossos Sabores</h2>
                 <div class="sabores-grid">
                     <div class="sabor">
-                        <img src="img/imagem1.jpeg" alt="Pizza Mussarela" /> 
+                        <img src="img/mussarela.jpg" alt="Pizza Mussarela" /> 
                         <p>Mussarela</p>
                     </div>
                     <div class="sabor">
-                        <img src="img/imagem2.jpeg" alt="Pizza Calabresa" /> 
+                        <img src="img/calabresa.jpg" alt="Pizza Calabresa" /> 
                         <p>Calabresa</p>
                     </div>
                     <div class="sabor">
-                        <img src="img/imagem3.jpeg" alt="Pizza Frango com Catupiry" />
+                        <img src="img/frango-catupiry.jpg" alt="Pizza Frango com Catupiry" />
                         <p>Frango com Catupiry</p>
+                    </div>
+                    <div class="sabor">
+                        <img src="img/margerita.jpg" alt="Pizza Marguerita" />
+                        <p>Marguerita</p>
                     </div>
                 </div>
             </section>
@@ -52,18 +58,36 @@
                     <li>Mussarela - R$ 37,00</li>
                     <li>Calabresa - R$ 35,00</li>
                     <li>Frango com Catupiry - R$ 35,00</li>
+                    <li>Marguerita - R$ 37,00</li>
                 </ul>
             </section>
 
             <section id="pedido">
-                <a href="https://wa.me/5511958007606?text=Olá,%20gostaria%20de%20fazer%20um%20pedido!" target="_blank">
+                <a class="botao-pedido" href="https://wa.me/5511958007606?text=Olá,%20gostaria%20de%20fazer%20um%20pedido!" target="_blank">
                     Faça seu Pedido
                 </a>
             
                 <div id="confirmacao"></div>
             </section>
         </main>
-
+        <section id="pagamento">
+            <h2>Formas de Pagamento</h2>
+            <div class="opcoes-pagamento">
+                <div class="pagamento">
+                    <img src="img/pix1.jpg" alt="Pagamento via Pix" />
+                </div>
+                <div class="pagamento">
+                    <img src="img/visa.png" alt="Pagamento via Visa" />
+                </div>
+                <div class="pagamento">
+                    <img src="img/elo1.jpg" alt="Pagamento via Elo" />
+                </div>
+                <div class="pagamento">
+                    <img src="img/mastercard.png" alt="Pagamento via Mastercard" />
+                </div>
+            </div>
+        </section>
+             
         <footer>
             <p>&copy; 2025 LaGabi Pizzaria</p>
         </footer>

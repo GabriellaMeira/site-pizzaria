@@ -124,3 +124,60 @@ footer {
         display: block;
     }
 }
+#pagamento {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .opcoes-pagamento {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 1rem;
+  }
+  
+  .pagamento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 150px;
+  }
+  
+  .pagamento img {
+    height: 60px; 
+    width: auto; 
+    object-fit: contain; 
+    margin-bottom: 0.5rem;
+}
+#status-horario {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.botao-pedido {
+    display: inline-block;
+    background-color: #ff4500; /* cor laranja vibrante */
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.botao-pedido:hover {
+    background-color: #e03e00; /* cor um pouco mais escura no hover */
+    transform: scale(1.05); /* botão cresce um pouquinho */
+}
+.sabor img {
+    width: 150px; /* ou 180px se quiser maior */
+    height: 150px;
+    object-fit: cover; /* corta e encaixa a imagem */
+    border-radius: 10px; /* cantinhos arredondados */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* sombra leve */
+}
+
+
